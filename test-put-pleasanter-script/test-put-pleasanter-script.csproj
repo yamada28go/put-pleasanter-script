@@ -26,13 +26,14 @@
     <None Remove="Configuration\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Data\" />
-    <Folder Include="Data\TestJSONProcessing\" />
     <Folder Include="Service\" />
     <Folder Include="Service\JSONProcessing\" />
     <Folder Include="Configuration\" />
   </ItemGroup>
   <ItemGroup>
+    <None Update="Data\TestJSONProcessing\Status取り除き.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Data\TestJSONProcessing\スクリプト置換試験.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -45,7 +46,13 @@
     <None Update="Data\TestJSONProcessing\対象スクリプトのindex指定.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Data\TestJSONProcessing\A.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Data\TestJSONProcessing\置換しなければ同じデータとなるか_ 変更結果データ.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\TestJSONProcessing\置換しなければ同じデータとなるか_変更結果データ.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

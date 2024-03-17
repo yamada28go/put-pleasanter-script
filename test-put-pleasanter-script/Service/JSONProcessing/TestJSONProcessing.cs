@@ -75,7 +75,7 @@ public class TestJSONProcessing
         var modifiedJsonString = new SiteJSONProcessing(up).Processing(content);
         var mjs = NormalizeJsonString(modifiedJsonString);
 
-        string contentRet = File.ReadAllText(Path.Combine(currentDirectory, "Data", "TestJSONProcessing", "置換しなければ同じデータとなるか_ 変更結果データ.json"));
+        string contentRet = File.ReadAllText(Path.Combine(currentDirectory, "Data", "TestJSONProcessing", "Status取り除き.json"));
         var mc = NormalizeJsonString(contentRet);
 
         Console.WriteLine(modifiedJsonString);
