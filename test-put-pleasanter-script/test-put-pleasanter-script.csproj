@@ -36,11 +36,17 @@
     <None Update="Data\TestJSONProcessing\スクリプト置換試験.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="Data\TestJSONProcessing\スクリプト置換試験.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Data\TestJSONProcessing\置換しなければ同じデータとなるか_ 変更結果データ.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="Data\TestJSONProcessing\対象スクリプトのindex指定.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\TestJSONProcessing\置換しなければ同じデータとなるか_ 変更結果データ.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 </Project>
