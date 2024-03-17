@@ -1,0 +1,147 @@
+﻿{
+    "StatusCode": 200,
+    "Response": {
+        "Data": {
+            "TenantId": 1,
+            "SiteId": 2,
+            "UpdatedTime": "2024-03-01T00:06:13",
+            "Ver": 21,
+            "Title": "記録テーブル",
+            "Body": "",
+            "SiteName": "",
+            "SiteGroupName": "",
+            "GridGuide": "",
+            "EditorGuide": "",
+            "CalendarGuide": "",
+            "CrosstabGuide": "",
+            "GanttGuide": "",
+            "BurnDownGuide": "",
+            "TimeSeriesGuide": "",
+            "KambanGuide": "",
+            "ImageLibGuide": "",
+            "ReferenceType": "Results",
+            "ParentId": 1,
+            "InheritPermission": 1,
+            "Permissions": [],
+            "SiteSettings": {
+                "Version": 1.017,
+                "ReferenceType": "Results",
+                "EditorColumnHash": {
+                    "General": [
+                        "ResultId",
+                        "Ver",
+                        "Title",
+                        "Body",
+                        "Status",
+                        "Manager",
+                        "Owner",
+                        "Comments",
+                        "ClassA",
+                        "NumA",
+                        "DateA",
+                        "DescriptionA",
+                        "CheckA",
+                        "ClassB",
+                        "NumB",
+                        "DateB",
+                        "DescriptionB",
+                        "CheckB",
+                        "AttachmentsA",
+                        "AttachmentsB"
+                    ]
+                },
+                "Columns": [
+                    {
+                        "ColumnName": "ClassA",
+                        "Description": "TypeA",
+                        "ChoicesText": "ClassA\nClassB\nClassC"
+                    },
+                    {
+                        "ColumnName": "NumA",
+                        "Description": "NumA"
+                    },
+                    {
+                        "ColumnName": "DateA",
+                        "Description": "DataA",
+                        "EditorFormat": "Ymdhm"
+                    },
+                    {
+                        "ColumnName": "DescriptionA",
+                        "Description": "StringA"
+                    },
+                    {
+                        "ColumnName": "CheckA",
+                        "Description": "CheckA"
+                    },
+                    {
+                        "ColumnName": "AttachmentsA",
+                        "LabelText": "テストデータ_添付ファイルA",
+                        "Description": "AttachmentA"
+                    },
+                    {
+                        "ColumnName": "AttachmentsB",
+                        "LabelText": "テストデータ_添付ファイルB",
+                        "Description": "AttachmentB"
+                    },
+                    {
+                        "ColumnName": "ClassB",
+                        "LabelText": "テストデータ_分類B",
+                        "Description": "分類B",
+                        "NoWrap": true
+                    },
+                    {
+                        "ColumnName": "NumB",
+                        "LabelText": "テストデータ_数値B"
+                    },
+                    {
+                        "ColumnName": "DateB",
+                        "LabelText": "テストデータ_日付B"
+                    },
+                    {
+                        "ColumnName": "DescriptionB",
+                        "LabelText": "テストデータ_説明B"
+                    },
+                    {
+                        "ColumnName": "CheckB",
+                        "LabelText": "テストデータ_チェックB"
+                    }
+                ],
+                "Scripts": [
+                    {
+                        "Title": "test",
+                        "New": true,
+                        "Edit": true,
+                        "Index": true,
+                        "Calendar": true,
+                        "Crosstab": true,
+                        "Gantt": true,
+                        "BurnDown": true,
+                        "TimeSeries": true,
+                        "Kamban": true,
+                        "ImageLib": true,
+                        "Body": "console.log(\"A\")",
+                        "Id": 1
+                    }
+                ],
+                "NoDisplayIfReadOnly": false
+            },
+            "Publish": false,
+            "DisableCrossSearch": false,
+            "LockedTime": "1899-12-30T00:00:00",
+            "LockedUser": 0,
+            "ApiCountDate": "1899-12-30T00:00:00",
+            "ApiCount": 0,
+            "Comments": "[]",
+            "Creator": 1,
+            "Updator": 1,
+            "CreatedTime": "2023-08-06T11:21:35",
+            "ApiVersion": 1.1,
+            "ClassHash": {},
+            "NumHash": {},
+            "DateHash": {},
+            "DescriptionHash": {},
+            "CheckHash": {},
+            "AttachmentsHash": {}
+        }
+    }
+}
